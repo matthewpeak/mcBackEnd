@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "cases",
+  "info": {
+    "name": "cases"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cases": {
+      "type": "dynamiczone",
+      "components": [
+        "card.case-card"
+      ]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/employees",
+      "handler": "employees.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/employees",
+      "handler": "employees.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/employees",
+      "handler": "employees.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

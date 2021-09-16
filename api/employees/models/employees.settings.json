@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "employees",
+  "info": {
+    "name": "employees"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "employee": {
+      "type": "dynamiczone",
+      "components": [
+        "card.employee-card"
+      ]
+    }
+  }
+}

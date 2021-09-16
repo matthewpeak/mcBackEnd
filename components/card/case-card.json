@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_card_case_cards",
+  "info": {
+    "name": "CaseCard",
+    "icon": "balance-scale"
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "type": "string"
+    },
+    "caseDescription": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "footers",
+  "info": {
+    "name": "footer"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "address": {
+      "type": "text"
+    },
+    "disclaimer": {
+      "type": "text"
+    },
+    "phonenumber": {
+      "type": "text"
+    },
+    "email": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

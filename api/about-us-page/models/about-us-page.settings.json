@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_us_pages",
+  "info": {
+    "name": "aboutUSPage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "AboutUsCards": {
+      "type": "dynamiczone",
+      "components": [
+        "card.about-us-card"
+      ]
+    }
+  }
+}

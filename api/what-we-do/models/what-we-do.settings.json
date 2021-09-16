@@ -1,0 +1,49 @@
+{
+  "kind": "singleType",
+  "collectionName": "what_we_dos",
+  "info": {
+    "name": "whatWeDo",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "titledescription": {
+      "type": "text"
+    },
+    "toplefttitle": {
+      "type": "string"
+    },
+    "topleftdesc": {
+      "type": "text"
+    },
+    "bottomlefttitle": {
+      "type": "string"
+    },
+    "bottomleftdesc": {
+      "type": "text"
+    },
+    "toprighttitle": {
+      "type": "string"
+    },
+    "toprightdesc": {
+      "type": "text"
+    },
+    "bottomrighttitle": {
+      "type": "string"
+    },
+    "bottomrightdesc": {
+      "type": "text"
+    },
+    "btntext": {
+      "type": "string"
+    }
+  }
+}
