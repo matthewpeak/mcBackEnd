@@ -1,3 +1,3 @@
 module.exports = ({ env }) => ({
-    url: env('MY_HEROKU_URL'),
+    url: env('https://intense-beach-34041.herokuapp.com/'),
   });
